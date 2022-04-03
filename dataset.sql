@@ -277,7 +277,7 @@ where dept_name in (select dept_name
 and e.emp_id in (select emp_id from employee_history);
 
 
---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 /* < Using Subquery with DELETE statement > */
 /* QUESTION: Delete all departments who do not have any employees. */
 delete from department d1
